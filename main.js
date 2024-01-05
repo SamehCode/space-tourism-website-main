@@ -23,9 +23,7 @@ allLis.forEach((li, idx) => {
             desc.innerHTML = data.destinations[idx].description;
             distance.innerHTML = data.destinations[idx].distance;
             travel.innerHTML = data.destinations[idx].travel;
-            // planetImg.src = 'url(' + './assets/destination/' + + data.destinations[idx].images[0] + '.png)'
-            // planetImg.src =  data.destinations[idx].images.png
-            planetImg.src = '/starter-code/' + data.destinations[idx].images.png
+            planetImg.src = 'starter-code/' + data.destinations[idx].images.png
             })
 
         })
